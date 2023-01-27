@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\ivano\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\kanagawa.nvim",
     url = "https://github.com/rebelot/kanagawa.nvim"
   },
+  ["lualine.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\ivano\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lualine.nvim",
+    url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
   ["mason.nvim"] = {
     loaded = true,
     path = "C:\\Users\\ivano\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason.nvim",
