@@ -1,10 +1,11 @@
+lua require('config')
 lua require('plugins')
 lua require('mason-config')
 lua require('lsp')
 lua require('nvim-tree-config')
 lua require('keymaps')
-lua require('config')
 lua require('statusline-config')
+lua require('completion')
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>

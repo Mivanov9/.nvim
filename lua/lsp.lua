@@ -41,10 +41,18 @@ require('lspconfig')['pyright'].setup{
     flags = lsp_flags,
 }
 require('lspconfig')['clangd'].setup{
+    cmd = {
+        "clangd",
+        "--query-driver=C:/msys64/mingw64/bin/gcc.exe"
+    },
     on_attach = on_attach,
     flags = lsp_flags,
 }
 require('lspconfig')['tsserver'].setup{
+    on_attach = on_attach,
+    flags = lsp_flags,
+}
+require('lspconfig')['angularls'].setup{
     on_attach = on_attach,
     flags = lsp_flags,
 }

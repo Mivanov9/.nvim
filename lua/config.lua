@@ -1,3 +1,4 @@
+-- vim.o.shell = 'powershell'
 local opt = vim.opt
 
 opt.number = true
