@@ -1,0 +1,19 @@
+local lsp = require('lsp-zero').preset({
+  name = 'minimal',
+  set_lsp_keymaps = true,
+  manage_nvim_cmp = true,
+  suggest_lsp_servers = false,
+})
+local on_attach = function(client, bufnr) end
+lsp.configure('clangd', {
+    cmd = {
+        "clangd",
+        "--query-driver=C:/msys64/mingw64/bin/gcc.exe"
+    }
+    }
+)
+
+-- (Optional) Configure lua language server for neovim
+lsp.nvim_workspace()
+
+lsp.setup()

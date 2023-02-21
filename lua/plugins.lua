@@ -41,4 +41,8 @@ return require('packer').startup(function(use)
   -- For vsnip users.
   use 'hrsh7th/cmp-vsnip'
   use 'hrsh7th/vim-vsnip'
+
+  use {
+    "ray-x/lsp_signature.nvim"
+  }
 end)

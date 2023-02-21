@@ -17,3 +17,6 @@ opt.termguicolors = true
 opt.scrolloff = 8
 
 opt.incsearch = true
+
+-- Fix bug: https://github.com/neovim/neovim/issues/21169
+vim.o.keywordprg = ':help'
